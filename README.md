@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# 📱 Study Abroad App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple React Native mobile application built using Expo.
+The app displays a list of universities and allows users to view detailed information about each one.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 📋 View a list of universities
+* 👉 Tap on any card to see details
+* 🎨 Clean and modern UI design
+* 🔙 Custom back button for navigation
+* 📱 Responsive layout
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo
+* Expo Router
+* JavaScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Screenshots
 
-## Get a fresh project
+### 🏠 Home Screen
 
-When you're ready, run:
+Displays a list of universities in a clean card-based layout.
+
+![Home Screen](./assets/home.jpeg)
+
+---
+
+### 📄 Detail Screen
+
+Shows detailed information about the selected university with a modern UI and custom back button.
+
+![Detail Screen](./assets/detail.jpeg)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone YOUR_GITHUB_LINK
+cd studyApp
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Start the project:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+4. Run on:
 
-Join our community of developers creating universal apps.
+* 📱 Expo Go (mobile)
+* 🌐 Browser (press `w`)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📁 Folder Structure
+
+```
+app/
+ ├── index.js
+ ├── detail.js
+components/
+ └── Card.js
+data/
+ └── data.js
+assets/
+ ├── home.jpeg
+ └── detail.jpeg
+```
+
+---
+
+## ✨ Author
+
+* Akshita Gupta
+
+---
+
+## 📌 Note
+
+This project was created as part of a React Native internship assignment.
