@@ -47,7 +47,7 @@ Shows detailed information about the selected university with a modern UI and cu
 1. Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_LINK
+git clone https://github.com/Akshitagupta1905/study-abroad-app.git
 cd studyApp
 ```
 
@@ -80,7 +80,7 @@ components/
  └── Card.js
 data/
  └── data.js
-assets/
+assets/images/
  ├── home.jpeg
  └── detail.jpeg
 ```
