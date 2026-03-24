@@ -30,7 +30,7 @@ The app displays a list of universities and allows users to view detailed inform
 
 Displays a list of universities in a clean card-based layout.
 
-![Home Screen](./assets/home.jpeg)
+![Home Screen](./assets/images/home.jpeg)
 
 ---
 
@@ -38,7 +38,7 @@ Displays a list of universities in a clean card-based layout.
 
 Shows detailed information about the selected university with a modern UI and custom back button.
 
-![Detail Screen](./assets/detail.jpeg)
+![Detail Screen](./assets/images/detail.jpeg)
 
 ---
 
